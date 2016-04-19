@@ -1,0 +1,25 @@
+// RESPONSIVE
+$screen-tablet:                         700px;
+$screen-desktop:                        1024px;
+
+// FTV CNIL
+// colors:
+$cnil-background:                       #111105;
+$cnil-text-color:                       #FFFFFF;
+$cnil-close-button-background:          #333333;
+$cnil-close-button-color:               #FFFFFF;
+// sizes:
+$cnil-min-height:                       40px;
+// padding:
+$cnil-padding:                          8px 64px 8px 8px;
+$cnil-padding-right-mobile:            44px;
+$cnil-button-close-padding:             0 24px;
+$cnil-button-close-padding-mobile:      0 12px;
+// font-sizes:
+$cnil-font-size:                        14px;
+$cnil-button-close-font-size:           20px;
+// font-families:
+$cnil-font-family:                     "Helvetica Neue", Helvetica, Arial, sans-serif;
+// misc:
+$cnil-z-index:                          1000;
+$cnil-button-close-top:                 calc(50% - 13px);

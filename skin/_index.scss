@@ -1,0 +1,64 @@
+.ftvCnil {
+    font-family: $cnil-font-family;
+    position: relative;
+    width: 100%;
+    min-height: $cnil-min-height;
+    background: $cnil-background;
+    color: $cnil-text-color;
+    text-align: center;
+    font-size: $cnil-font-size;
+    padding: $cnil-padding;
+    z-index: $cnil-z-index;
+
+    @media (max-width: $screen-desktop) {
+        position: fixed;
+        top:0;
+        padding-right: $cnil-padding-right-mobile;
+    }
+
+    @media (min-width: $screen-desktop) {
+        height: auto;
+    }
+
+    &__link {
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: underline;
+
+        &__mobile {
+            display: none;
+        }
+
+        @media (max-width: $screen-tablet) {
+            &__desktop {
+                display: none;
+            }
+            &__mobile {
+                display: inline-block;
+            }
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: $cnil-button-close-padding;
+        background: $cnil-close-button-background;
+        cursor: pointer;
+
+        &__text {
+            position: relative;
+            display: block;
+            // Alignement vertical
+            top: $cnil-button-close-top;
+            font-size: $cnil-button-close-font-size;
+            color: $cnil-close-button-color;
+        }
+
+        @media (max-width: $screen-desktop) {
+            padding: $cnil-button-close-padding-mobile;
+        }
+    }
+}
