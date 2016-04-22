@@ -1,27 +1,40 @@
-### Ftv::Components::Cnil
+# Ftv::Components::Cnil
 
-Cnil
+CNIL bar to be displayed on top of your website. This bar is compliant with french law : [https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi](https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi)
 
-# Get sources
+## Get sources
 
 ```
 git clone git@gitlab.ftven.net:team-infini/ftv-angular-cnil.git
 ```
 
-# Required dependencies
+## Required dependencies
 
 - [npm](https://nodejs.org/)
 - [gem](https://rubygems.org/)
 
-# Installation process
+## How to use
+
+Include javascript
+
+```
+<script src="dist/js/ftv.components.cnil.min.js"></script>
+```
+
+Include this tag with link to your cnil page.
+
+```
+<ftv-cnil link="http://mywebsite.com/privacy.html"></ftv-cnil>
+```
+
+## Build process
 
 ```
 sudo apt-get install ruby ruby-dev gem
 npm install -g gulp
 
 npm install
-gem update --system
-gem install compass
+sudo gem install compass
 
 gulp build
 ```
@@ -36,8 +49,8 @@ gulp build-dev
 
 ```
 npm install -g http-server
-http-server
 gulp build
+http-server
 ```
 
 Open [demo](http://127.0.0.1:8080/demo.html)
