@@ -1,1 +1,21 @@
-.ftvCnil{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;width:100%;min-height:40px;background:#111105;color:#FFF;text-align:center;font-size:14px;padding:8px 64px 8px 8px;z-index:1000}@media (max-width:1024px){.ftvCnil{position:fixed;top:0;padding-right:44px}}@media (min-width:1024px){.ftvCnil{height:auto}}.ftvCnil__link{font-weight:700;cursor:pointer;text-decoration:underline}.ftvCnil__link__mobile{display:none}@media (max-width:700px){.ftvCnil__link__desktop{display:none}.ftvCnil__link__mobile{display:inline-block}}.ftvCnil__close{position:absolute;top:0;right:0;height:100%;padding:0 24px;background:#333;cursor:pointer}.ftvCnil__close__text{position:relative;display:block;top:calc(50% - 13px);font-size:20px;color:#FFF}@media (max-width:1024px){.ftvCnil__close{padding:0 12px}}
+/**
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2016 France Télévisions
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
+ * to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+ * the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+ * THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+@charset "UTF-8";.ftvCnil{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;width:100%;min-height:40px;background:#111105;color:#FFF;text-align:center;font-size:14px;padding:8px 64px 8px 8px;z-index:1000}@media (max-width:1024px){.ftvCnil{position:fixed;top:0;padding-right:44px}}@media (min-width:1024px){.ftvCnil{height:auto}}.ftvCnil__link{font-weight:700;cursor:pointer;text-decoration:underline}.ftvCnil__link__mobile{display:none}@media (max-width:700px){.ftvCnil__link__desktop{display:none}.ftvCnil__link__mobile{display:inline-block}}.ftvCnil__close{position:absolute;top:0;right:0;height:100%;padding:0 24px;background:#333;cursor:pointer}.ftvCnil__close__text{position:relative;display:block;top:calc(50% - 13px);font-size:20px;color:#FFF}@media (max-width:1024px){.ftvCnil__close{padding:0 12px}}
