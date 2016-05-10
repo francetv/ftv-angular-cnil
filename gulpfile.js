@@ -89,7 +89,9 @@ gulp.task('js-component-min', function() {
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(uglify())
+        .pipe(uglify({
+            preserveComments: 'license'
+        }))
         .pipe(gulp.dest(js.dest));
 });
 
