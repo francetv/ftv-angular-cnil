@@ -1,5 +1,5 @@
 {
-  "name": "ftv-components-cnil",
+  "name": "ftv-angular-cnil",
   "version": "1.0.0",
   "description": "A component that manages the CNIL bar",
   "main": "index.js",
@@ -14,7 +14,6 @@
     "angularjs",
     "cnil"
   ],
-  "author": "Florian Valence <florian.m.valence@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.9",
@@ -39,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git clone git@gitlab.ftven.net:team-infini/ftv-angular-cnil.git"
+    "url": "git clone git@github.com:francetv/ftv-angular-cnil.git"
   }
 }
