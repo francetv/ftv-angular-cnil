@@ -1,5 +1,5 @@
 {
-  "name": "ftv.components.cnil",
+  "name": "ftv-angular-cnil",
   "dependencies": {
     "angular": "angularjs#1.5.2",
     "angular-mocks": "1.5.2",

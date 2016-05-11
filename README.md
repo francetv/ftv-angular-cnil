@@ -1,11 +1,13 @@
 # Ftv::Components::Cnil
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 CNIL bar to be displayed on top of your website. This bar is compliant with french law : [https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi](https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi)
 
 ## Get sources
 
 ```
-git clone git@gitlab.ftven.net:team-infini/ftv-angular-cnil.git
+git clone git@github.com/francetv/ftv-angular-cnil.git
 ```
 
 ## Required dependencies
@@ -54,6 +56,3 @@ http-server
 ```
 
 Open [demo](http://127.0.0.1:8080/demo.html)
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
