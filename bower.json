@@ -1,8 +1,30 @@
 {
   "name": "ftv-angular-cnil",
+  "description": "CNIL bar to be displayed on top of your website",
+  "main": [
+    "dist/js/ftv.components.cnil.js",
+    "base.scss"
+  ],
   "dependencies": {
     "angular": "angularjs#1.5.2",
-    "angular-mocks": "1.5.2",
     "jquery": "~2.2.3"
-  }
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "cnil",
+    "cnilbar"
+  ],
+  "ignore": [
+    "**/.*",
+    "demo",
+    ".gitignore",
+    ".htmllintrc",
+    "demo.html",
+    "index.js",
+    "gulpfile.js"
+  ]
 }
